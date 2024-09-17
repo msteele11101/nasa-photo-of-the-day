@@ -21,7 +21,7 @@ export default function ApodDetails() {
   return (
     <div className="entry">
       <ApodCard
-        key={nasaData.date}
+        date={nasaData.date}
         title={nasaData.title}
         explanation={nasaData.explanation}
         Img={nasaData.url}
